@@ -1,0 +1,10 @@
+##Queues
+https://www.rabbitmq.com/queues.html
+> Durable (the queue will survive a broker restart)
+> Exclusive (used by only one connection and the queue will be deleted when that connection closes)
+> Auto-delete (queue that has had at least one consumer is deleted when last consumer unsubscribes)
+> Arguments (optional; used by plugins and broker-specific features such as message TTL, queue length limit, etc)
+
+##BasicPublish
+https://stackoverflow.com/questions/6386117/rabbitmq-use-of-immediate-and-mandatory-bits
+> mandatory - This flag tells the server how to react if a message cannot be routed to a queue. Specifically, if mandatory is set and after running the bindings the message was placed on zero queues then the message is returned to the sender (with a basic.return). If mandatory had not been set under the same circumstances the server would silently drop the message.

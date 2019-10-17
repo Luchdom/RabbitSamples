@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{30FD907B-F855-4CB1-BABE-210ACD8B1478}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-files", "solution-files", "{3FA3BAA5-E1CD-4F36-8080-3303B2348BDC}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{4440D814-B2EF-43AF-8025-73CC58FE2B8D}"
+	ProjectSection(SolutionItems) = preProject
+		quick-guide.txt = quick-guide.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitSamples", "src\RabbitSamples\RabbitSamples.csproj", "{E42B3752-9B9D-4A79-ABAE-6C92659614AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E42B3752-9B9D-4A79-ABAE-6C92659614AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E42B3752-9B9D-4A79-ABAE-6C92659614AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E42B3752-9B9D-4A79-ABAE-6C92659614AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E42B3752-9B9D-4A79-ABAE-6C92659614AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E42B3752-9B9D-4A79-ABAE-6C92659614AD} = {30FD907B-F855-4CB1-BABE-210ACD8B1478}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D25B6C4C-624A-436F-AA0B-81CFBA85E2DD}
+	EndGlobalSection
+EndGlobal
